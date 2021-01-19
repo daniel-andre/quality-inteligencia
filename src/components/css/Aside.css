@@ -1,0 +1,36 @@
+aside {
+  background: linear-gradient(180deg, #26e3e3, #135667);
+  color: white;
+  height: 100%;
+}
+.header-aside > *:not(:last-child) {
+  margin-bottom: 0.6rem;
+}
+.header-aside {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 1rem 1rem 0rem 1rem;
+}
+.header-aside img {
+  border-radius: 10px;
+  width: 400px;
+}
+nav ul {
+  padding: 0;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+nav ul li a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  padding: 1rem 2rem;
+}
+nav ul li a:hover {
+  background: #143047;
+}
